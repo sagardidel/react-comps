@@ -7,10 +7,10 @@ import Providers from './Providers/Providers'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Providers>
         <App />
       </Providers>
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
 )
