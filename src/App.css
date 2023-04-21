@@ -1,0 +1,41 @@
+/* .para {
+  font-family: none;
+  font-family: Avenir-regular;
+}
+
+.para-regular {
+  font-family: Avenir-regular;
+}
+
+.para-medium {
+  font-family: Avenir-meduim;
+}
+
+.para-demibold {
+  font-family: Avenir-demibold;
+
+} */
+
+/* zig-zag pattern */
+
+.item-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: rgb(94, 94, 94);
+
+}
+
+.item-div>div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.item-div:nth-child(odd) {
+  background-color: rgb(232, 232, 232);
+  flex-direction: row-reverse;
+  color: rgb(94, 94, 94);
+
+}
